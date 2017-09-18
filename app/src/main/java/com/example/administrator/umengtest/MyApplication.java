@@ -50,7 +50,8 @@ public class MyApplication  extends Application{
         @Override
         public void dealWithCustomAction(Context context, UMessage uMessage) {
             super.dealWithCustomAction(context, uMessage);
-            Toast.makeText(context, uMessage.extra.get("custom"), Toast.LENGTH_LONG).show();
+           // Toast.makeText(context, uMessage.extra.get("custom"), Toast.LENGTH_LONG).show();
+            //Toast.makeText(context, uMessage.extra.get("custom"), Toast.LENGTH_LONG).show();
 
         }
     };
